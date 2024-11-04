@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    color: lightgray;
+    font-size: 12px;
+  }
+  .styled-div {
+    border: 2px dotted white; 
+    width: 100px;
+    height: 100px;
+  }
+  ol{
+    list-style-type: lower-alpha;
+  }
+  ul {
+    list-style-type: square;
+  }

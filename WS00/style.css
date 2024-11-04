@@ -1,0 +1,14 @@
+
+    body {
+        color: rgb(12, 2, 24);
+        background-color: bisque;
+        background-image: url(../WS00/kuvat/yle.avif);
+        font-family: "Arial";
+    }
+    p {
+        font-size: 20px;
+        color: blue; }
+        .btn { background-color: #ff0062; }
+ #nappi { 
+    font-size: 24px; }
+    
