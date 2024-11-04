@@ -1,0 +1,1 @@
+Assignment 6B - Web page. Student learns to create two column website, make use of "box model" while designing website and using css-pseudo classes.
