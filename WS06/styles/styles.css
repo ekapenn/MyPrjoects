@@ -7,6 +7,7 @@ body {
     border: 1px solid gray;
     flex-direction: column;
     height: fit-content;
+   
   }
 
 header,
@@ -24,22 +25,20 @@ h1 {
 
   div.container {
     width: 100%;
+    height: fit-content;
   }
   .proge {
     position: relative;
     left: 40px;
     font-family: Arial, sans-serif;
+    overflow: hidden;
   }
   p {
     position: relative;
     left: 20px;
     font-family: Arial, sans-serif;
   }
-  #toinen {
-    font-size: 16px;
-    color: blue;
-    text-align: center;
-  }
+ 
 #nav2 {
     float: left;
     width: 25%;
@@ -48,6 +47,7 @@ h1 {
     height: 250px;
     padding: 0px;
   }
+
   a:link {
     color: #000066;
   }
@@ -65,7 +65,7 @@ h1 {
   }
   ul {
     list-style-type: none;
-    padding: 20px;
+    padding: 5px;
   }
   #bar {
     padding-left: 15px;
