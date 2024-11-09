@@ -49,6 +49,7 @@ h2{
     border-right: 1px solid #e8e4fb;
     height: 250px;
     padding: 0px;
+    line-height: 1.5;
   }
 
   a:link {
