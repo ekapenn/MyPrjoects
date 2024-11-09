@@ -22,4 +22,95 @@ h1 {
     text-align: center;
   }
 
-  
+  div.container {
+    width: 100%;
+  }
+  .proge {
+    position: relative;
+    left: 40px;
+    font-family: Arial, sans-serif;
+  }
+  p {
+    position: relative;
+    left: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #toinen {
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+  }
+#nav2 {
+    float: left;
+    width: 25%;
+    background: #e8e4fb;
+    border-right: 1px solid #e8e4fb;
+    height: 250px;
+    padding: 0px;
+  }
+  a:link {
+    color: #000066;
+  }
+  a:visited {
+    color: #003366;
+  }
+  a:focus {
+    color: #ff00ae;
+  }
+  a:hover {
+    color: #0099cc;
+  }
+  a:active {
+    color: #ff00ae;
+  }
+  ul {
+    list-style-type: none;
+    padding: 20px;
+  }
+  #bar {
+    padding-left: 15px;
+    margin: 5px;
+  }
+  #sektio {
+    width: 100%;
+    height: 250px;
+    padding: 0%;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .wrapper > div {
+    flex: 1;
+    text-align: center;
+  }
+  nav {
+    max-width: 100%;
+    background-color: #f2f0fd;
+    margin: 0;
+    padding: 1em;
+  }
+  nav ul a {
+    text-decoration: none;
+  }
+  section {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: black;
+    height: 230px;
+  }
+  article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: black;
+    height: 230px;
+  }
+  aside {
+    float: right;
+    width: 25%;
+    padding: 1em;
+    border-left: 1px solid gray;
+    color: black;
+    height: 542px;
+  }
