@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Forms Exercise</h1>
+        <p>Use this template to create forms below.</p>
+    </header>
+    <div class="container">
+        <h2>Task</h2>
+        <p>Create a form for user registration. The form should include:</p>
+        <ul>
+            <li>Input fields: First Name, Last Name, Email</li>
+            <li>A dropdown for selecting the country</li>
+            <li>A textarea for comments</li>
+            <li>A submit button</li>
+        </ul>
+        <h2>Sinun ikioma Form</h2>
+        <!-- Add your form here -->
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+<label for="city">City:</label>
+<select id="city" name="city">
+    <option value="new-york">Vantaa</option>
+    <option value="new-york">Espoo</option>
+    <option value="new-york">Helsinki</option>
+</select>
+<br>
+<form action="/action_page.php">
+    <p><label for="w3review">Comments</label></p>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">Type here</textarea>
+<br>
+            <input type="submit" value="Submit">
+          </form> 
+
+          <h2>Task 4</h2>
+          <p>Create a multi-step form. The form should include:</p>
+          <ul>
+              <li>Step 1: Personal Information (First Name, Last Name, Email)</li>
+              <li>Step 2: Address Information (Street, City, State, Zip Code)</li>
+              <li>Step 3: Account Information (Username, Password, Confirm Password)</li>
+              <li>Navigation buttons to move between steps (Next, Previous)</li>
+              <li>A final submit button on the last step</li>
+          </ul>
+          <h5>Sinun ikioma Multi-step Form</h5>
+          <!-- Add your multi-step form here -->
+          <form action="/action_page.php">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="Lastname">Last Name:</label>
+            <input type="text" id="fname" name="fname">
+           
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <h2>Address Information</h2>
+            <label for="street">Street:</label>
+            <input type="text" id="street" name="street">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip">
+
+                <h2>Step 3: Account Information</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+               
+                <button type="button" id="prevBtn" class="nav-btn" disabled>Previous</button>
+                <button type="button" id="nextBtn" class="nav-btn">Next</button>
+                <button type="submit" id="submitBtn" class="nav-btn hidden">Submit</button>
+        <div id="nav">
+            <a href="./index.html">Mene Tauluun</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
