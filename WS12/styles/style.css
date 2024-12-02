@@ -1,0 +1,8 @@
+header,
+footer {
+  padding: 1em;
+  color: white;
+  background-color: blueviolet;
+  clear: left;
+  text-align: center;
+}

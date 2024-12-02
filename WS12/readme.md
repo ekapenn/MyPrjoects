@@ -1,0 +1,1 @@
+Opiskelija luo oman verkkosivuston (vähintään neljä sivua/aiheita) ja julkaisee sen.
