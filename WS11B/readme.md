@@ -1,0 +1,1 @@
+This project demonstrates responsive layout techniques using CSS media queries. Each task focuses on a specific aspect of responsive design.
