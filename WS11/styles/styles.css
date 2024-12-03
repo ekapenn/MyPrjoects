@@ -76,11 +76,16 @@ body {
   
   /* lisää tänne tehtävä 4 button muotoilut*/
   .btn{
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, background-size 0.3s ease;
   }
   .btn:hover{
-    background-color: #555555;
-  color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: #01254b;
   }
