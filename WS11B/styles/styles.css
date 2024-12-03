@@ -1,31 +1,3 @@
-/* lisää body elementtiin taustakuva */
-@media (max-width: 600px) {
-  body {
-    background-image: url("/Users/kate_new/Documents/MyPrjoects/WS11B/images/taustakuva.webp");
-  }
-  header {
-    background: lightblue;
-  }
-  aside {
-    display: none;
-  }
-}
-
-@media (max-width: 900px) {
-  aside {
-    display: none;
-  }
- body{
-    background: lightgreen;
- }
-}
-
-@media (min-width: 1200px) {
-  body {
-    font-size: 18px;
-    background: lightcoral;
-  }
-}
 
 body {
   font-family: Arial, sans-serif;
@@ -102,17 +74,45 @@ footer {
 /* Media Queries */
 /* Task 1: Change Layout for Small Screens */
 @media (min-width: 600px) {
-}
-/* Task: Change Header Background Color for Different Screen Sizes - try also change body and footer elements appearance*/
-@media (max-width: 600px) {
-}
-/* Change aside not visible and change Header background Color*/
-@media (min-width: 600px) and (max-width: 900px) {
-}
-/* change Header backround color */
-@media (min-width: 900px) {
-}
-
-/* Task 2: Adjust Main element Font Size for Large Screens */
-@media (min-width: 1200px) {
-}
+    .container {
+      grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    }
+  }
+  /* Task: Change Header Background Color for Different Screen Sizes */
+  @media (max-width: 600px) {
+    header {
+      background-color: lightblue;
+    }
+    body {
+      background-image: url("/Users/kate_new/Documents/MyPrjoects/WS11B/images/taustakuva.webp");
+    }
+    footer {
+      background-color: black;
+      color: white;
+    }
+  }
+  /* Change aside not visible and change background Color*/
+  @media (min-width: 600px) and (max-width: 900px) {
+    aside {
+      display: none;
+    }
+    header {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    header {
+      background-color: lightcoral;
+    }
+  }
+  
+  /* Task 2: Adjust Font Size for Large Screens */
+  @media (min-width: 1200px) {
+    main {
+      font-size: 1.5em;
+    }
+  }
