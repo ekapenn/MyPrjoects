@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Own website</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">  
 </head>
@@ -53,33 +53,42 @@
       <div class="header-section">
         <div class="overlay">
             <h1>Discover Milan</h1>
-            <h2>Experience the vibrant energy of Milan, from its world-renowned fashion to its captivating history, and exquisite cuisine.</h2>
-            <figcaption class="image-caption">Kuva joecrupier Pixabaystä</figcaption>
+            <h2>Welcome to Milan, the city of style and history</h2>
+            <small>Kuva joecrupier Pixabaystä</small>
         </div>
     </div>
-<!-- Images Carusel -->
-<div class="container mt-5">
-    <div class="carousel-wrapper">
-        <figure class="carousel-item">
-            <img src="WS12/images/duomo-6808817_1280.jpg" alt="Duomo" class="carousel-image">
-            <figcaption class="image-caption">Kuva: Antonio Cansino Pixabaystä</figcaption>
-        </figure>
-       
-        <figure class="carousel-item">
-            <img src="WS12/images/milan-2813987_1280.jpg" alt="Galleria" class="carousel-image">
-            <figcaption class="image-caption">Kuva: Horst Baltzer Pixabaystä</figcaption>
-        </figure>
-     
-        <figure class="carousel-item">
-            <img src="WS12/images/pinacoteca-di-brera-5054731_1280.jpg" alt="Pinacoteca" class="carousel-image">
-            <figcaption class="image-caption">Kuva: Dimitris Vetsikas Pixabaystä</figcaption>
-        </figure>
-    </div>
-</div>
-<div class="col-md-6 d-flex align-items-center">
+ <!-- Carousel -->
+ <div class="container mt-5">
+    <div class="row align-items-center">
+        <!-- Carousel left -->
+        <div class="col-md-6">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/duomo-6808817_1280.jpg" class="d-block w-100" alt="Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/milan-2813987_1280.jpg" class="d-block w-100" alt="Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pinacoteca-di-brera-5054731_1280.jpg" class="d-block w-100" alt="Image 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6">
     <p>
         Milan is a unique city that combines modernity and rich history. Here you can see the majestic Duomo Cathedral, stroll through the Galleria Victor Emmanuel II and enjoy an atmosphere where art meets everyday life.
     </p>
+    <p>Explore Milan together with us!</p>
 </div>
 </div>
 </div>
