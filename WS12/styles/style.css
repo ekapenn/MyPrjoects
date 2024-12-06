@@ -51,9 +51,7 @@ body {  background: linear-gradient(45deg, #f7ecd8, #b3b3b3);
   font-size: 1.5rem;
   font-weight: 100;
 }
-.header-section small{
-  color: #646464;
-}
+
 
 
 .carousel-inner img {
@@ -86,7 +84,7 @@ h2{
     bottom: 8px;
     right: 16px;
     font-size: 10px;
-    color: #f4f4f4ca;
+    color: #bfbfbf;
   }
 
 header,
