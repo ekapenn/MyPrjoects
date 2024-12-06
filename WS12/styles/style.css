@@ -80,7 +80,14 @@ img {
 
 h2{
   text-shadow: 2px #333;}
-
+  
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 10px;
+    color: #f4f4f4ca;
+  }
 
 header,
 footer {
