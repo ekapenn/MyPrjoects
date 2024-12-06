@@ -73,7 +73,10 @@ body {
   border-radius: 10px; 
 }
 
-
+img {
+  max-height: 300px;
+  object-fit: cover;
+}
 
 
 
