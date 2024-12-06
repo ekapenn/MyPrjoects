@@ -49,6 +49,9 @@ body {
   font-size: 1.5rem;
   font-weight: 100;
 }
+.header-section small{
+  color: #646464;
+}
 
 
 .carousel-inner img {
