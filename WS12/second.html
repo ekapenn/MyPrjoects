@@ -87,6 +87,49 @@
             </div>
         </div>
     </div>
+    <!-- Section about tour -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div>
+                <h2>Why choose a personalized tour?</h2>
+                <p>Immerse yourself in the history of Milan with a personalized approach. Our guide will tell you about each of these symbols of the city, reveal the secrets of their creation and help you see Milan from a new perspective.</p>
+            <p>Ready to discover this unique city? Book your <i>Personalized Tour</i> now!</p>
+            </div>
+        </div>
+    </div>
+    <!-- Form Book -->
+    <div class="container my-5">
+        <h2>Book a Personal Tour</h2>
+        <form action="your-tour-handler.php" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Full Name" required>
+          </div>
+      
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+      
+          <div class="mb-3">
+            <label for="date" class="form-label">Preferred Date for the Tour</label>
+            <input type="date" class="form-control" id="date" name="date" required>
+          </div>
+      
+          <div class="mb-3">
+            <label for="message" class="form-label">Additional Notes (Optional)</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+          </div>
+      
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="termsCheck" required>
+            <label class="form-check-label" for="termsCheck">I agree to the terms and conditions</label>
+          </div>
+      
+          <button type="submit" class="btn btn-outline-dark">Book Now</button>
+        </form>
+      </div>
 <!-- Footer -->
     <footer>
         <div class="row">
