@@ -16,7 +16,7 @@ body {  background: linear-gradient(45deg, #f7ecd8, #b3b3b3);
 
 
 .header-section {
-  background: url("/Users/kate_new/Documents/MyPrjoects/WS12/images/milan-6391160_1920.jpg") center/cover no-repeat;
+  background: url("../images/milan-6391160_1920.jpg") center/cover no-repeat;
   height: 60vh;
   display: flex;
   justify-content: center;
